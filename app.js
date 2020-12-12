@@ -12,3 +12,11 @@ document.querySelector("#btnEnter").addEventListener("click", (e) => {
   //yoxlama
   authenticate(userName, password);
 });
+
+
+//silinecek
+document.querySelector("#go").addEventListener("click", (e) => {
+  e.preventDefault();
+  authenticate("Bret", "Sincere@april.biz");
+});
+//silinecek

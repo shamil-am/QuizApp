@@ -18,7 +18,8 @@ const authenticate = (userName, password) => {
         alert("Parol sehfdir");
         resetInput(true);
       } else {
-        alert("Parol duzdur");
+        alert("Imtahan baslayir");
+        //suallarin yuklenmesi
         quizMainPage();
       }
     });

@@ -34,6 +34,9 @@ const welcomePage = () => {
           >
         </div>
         <button type="submit" class="btn btn-light" id="btnEnter">Enter</button>
+
+        //siliencek
+        <button type="submit" class="btn btn-light" id="go">go</button>
       </form>
     </div>
   </div>
