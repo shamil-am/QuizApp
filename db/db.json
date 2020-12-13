@@ -2,11 +2,11 @@
   "users": [
     {
       "name": "shamil",
-      "passord": "Samil2666"
+      "password": "Samil2666"
     },
     {
       "name": "emil",
-      "passord": "Emil0606"
+      "password": "Emil0606"
     }
   ]
 }

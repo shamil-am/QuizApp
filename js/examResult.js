@@ -89,7 +89,7 @@ const examResult = (chckdAnswers) => {
 
   let displayH2 = document.createElement("h2");
   displayH2.className = "bg bg-light";
-  displayH2.textContent = `Umumi suallarin sayi: ${allQuestion.length} / Dugun cavablarin sayi: ${selectedTrueAnswersCount}`;
+  displayH2.textContent = `Umumi suallarin sayi: ${allQuestion.length} / Duzgun cavablarin sayi: ${selectedTrueAnswersCount}`;
   document.querySelector(".container").append(displayH2);
 };
 

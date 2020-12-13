@@ -6,14 +6,14 @@ const resetInput = (username = false) => {
 };
 
 const authenticate = (userName, password) => {
-  fetch(`https://jsonplaceholder.typicode.com/users?username=${userName}`)
+  fetch(`http://localhost:3000/users?name=${userName}`)
     .then((resp) => resp.json())
     .then((result) => {
       if (result.length === 0) {
         //username sehf olarsa
         alert("Istifadeci adi sehfdir");
         resetInput(false);
-      } else if (result[0].email !== password) {
+      } else if (result[0].password !== password) {
         //username duzdur parol sehfdir
         alert("Parol sehfdir");
         resetInput(true);
