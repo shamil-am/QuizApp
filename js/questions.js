@@ -39,8 +39,7 @@ const questions = () => {
       d: "had all we remembered",
     },
     {
-      question:
-        "Have you been back to the house ________ you grew up?",
+      question: "Have you been back to the house ________ you grew up?",
       a: "who",
       b: "which",
       c: "when",
@@ -49,4 +48,15 @@ const questions = () => {
   ];
 };
 
-export { questions };
+const trueAnswers = () => {
+  return [
+    "would agree",
+    "will get",
+    "took",
+    "carrying out",
+    "all we had remembered",
+    "who",
+  ];
+};
+
+export { questions, trueAnswers };

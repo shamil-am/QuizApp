@@ -8,11 +8,13 @@ const quizCheck = () => {
     allCheckedBtns = Array.from(allCheckedBtns);
     allCheckedBtns.map((radio) => {
       resultArr.push(radio.nextElementSibling.textContent);
-      examResult(resultArr);
     });
   } else {
     alert("Butun suallar cavablandirilmayib");
+    return;
   }
+
+  examResult(resultArr);
 };
 
 export { quizCheck };
